@@ -103,7 +103,7 @@ export default function Login({ navigation }) {
             />
             <TextInput
                 style={styles.input}
-                placeholder='Enter your age'
+                placeholder='Enter your password'
                 onChangeText={(value) => dispatch(setAge(value))}
             />
             <CustomButton

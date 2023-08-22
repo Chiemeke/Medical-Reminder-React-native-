@@ -60,7 +60,7 @@ const formatTime = (timeString) => {
                         style={styles.item}
                         onPress={() => {
                             dispatch(setDrugID(item.ID));
-                            navigation.navigate('Task');
+                            navigation.navigate('Create Drugs');
                         }}
                     >
                         <Text

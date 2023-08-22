@@ -17,8 +17,8 @@ export default function CreateDrugs({ navigation }) {
     const [year,setYear] = useState( dateObject.getFullYear());
     const [month,setMonth] = useState( dateObject.getMonth() + 1);// Months are 0-indexed, so add 1
     const [day,setDay] = useState( dateObject.getDate());
-    const [hours,setHour] = useState( dateObject.getHours())
-    const [minutes,setMinutes] = useState( dateObject.getMinutes())
+    const [hours,setHour] = useState( dateObject.getHours());
+    const [minutes,setMinutes] = useState(dateObject.getMinutes());
    
 
   ("Day,hours: ",day,month,year,hours,minutes);
