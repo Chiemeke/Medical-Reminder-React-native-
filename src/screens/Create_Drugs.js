@@ -68,10 +68,11 @@ export default function CreateDrugs({ navigation }) {
     const getTask = () => {
         const Drug = drugs.find(task => task.ID === drugID)
         if (Drug) {
+            console.log(Drug);
             setName(Drug.Title);
-            setDosage(Drug.Desc);
-            setFrequency(Drug.frequency)
-            setCurrentDate(Drug.dateTime)
+            setDosage(Drug.Dosage);
+            setFrequency(Drug.Freq);
+            setCurrentDate(Drug.DateTime);
         }
     }
 
