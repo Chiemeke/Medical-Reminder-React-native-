@@ -134,7 +134,7 @@ export default function CreateDrugs({ navigation }) {
             />
 
             <View>
-                <Text>
+                <Text style={{color: 'black'}}>
                     Date: {day}/{month}/{year} Time: {hours}:{minutes}
                 </Text>
             </View>
@@ -187,5 +187,6 @@ const styles = StyleSheet.create({
         fontSize: 20,
         margin: 10,
         paddingHorizontal: 10,
+        color: 'black'
     }
 })

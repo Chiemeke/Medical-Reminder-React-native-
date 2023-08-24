@@ -61,7 +61,7 @@ export default function Login({ navigation }) {
                     (tx, results) => {
                         var len = results.rows.length;
                         if (len > 0) {
-                            navigation.navigate('Home');
+                            navigation.navigate('My Tasks');
                         }
                     }
                 )
